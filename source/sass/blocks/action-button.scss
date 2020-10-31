@@ -1,0 +1,37 @@
+.action-button {
+  position: absolute;
+  bottom: -32px;
+  right: 15px;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #FF974F 0%, #E32C75 100%);
+  cursor: pointer;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 22px;
+    left: 31px;
+    width: 2px;
+    height: 20px;
+    background-color: $white;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 31px;
+    left: 22px;
+    width: 20px;
+    height: 2px;
+    background-color: $white;
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .action-button {
+    bottom: -52px;
+    right: calc(50% - 32px);
+  }
+}

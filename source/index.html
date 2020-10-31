@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+    <title>Synth</title>
+    <link href="css/style.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-top">
+          <div class="logo">
+            <img class="logo__image" src="./img/logo.svg" width="50" height="23" alt="logo">
+          </div>
+          <div class="user">
+            <p class="user__name">Arthur Wood</p>
+            <img class="user__photo" src="./img//profile_photo.png" width="32" height="32" alt="avatar">
+            <span class="user__menu"></span>
+            <img class="user__icon" src="./img/notifications.svg" width="32" height="32" alt="notifications icon">
+            <img class="user__icon" src="./img/share.svg" width="32" height="32" alt="share icon">
+            <img class="user__icon" src="./img/medium.svg" width="32" height="32" alt="medium icon">
+          </div>
+        </div>
+        <nav class="menu">
+          <a class="menu__link menu__link--active" href="#">Feed</a>
+          <a class="menu__link" href="#">Explore</a>
+          <a class="menu__link" href="#">Discussions</a>
+        </nav>
+        <div class="action-button"></div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container container--flex">
+        <div class="profile">
+          <div class="profile-details">
+            <div class="profile-avatar">
+              <img class="profile-avatar__image" src="./img//avatar.png" width="120" height="120" alt="avatar">
+            </div>
+            <div class="profile-data">
+              <p class="profile-data__name">Benjamin Clementine</p>
+              <p class="profile-data__nick">@benclementine</p>
+              <p class="profile-data__edit">Edit Profile</p>
+            </div>
+            <div class="dots-menu">
+              <span class="dots-menu__dot"></span>
+              <ul class="dropdown-list list">
+                <li class="dropdown-item dropdown-item--report">Report User</li>
+                <li class="dropdown-item dropdown-item--block">Block User</li>
+              </ul>
+            </div>
+          </div>
+          <ul class="followers-list list">
+            <li class="followers-item">
+              <span class="followers-item__number">45</span>
+              <span class="followers-item__text">synths</span>
+            </li>
+            <li class="followers-item">
+              <span class="followers-item__number">110</span>
+              <span class="followers-item__text">followers</span>
+            </li>
+            <li class="followers-item">
+              <span class="followers-item__number">322</span>
+              <span class="followers-item__text">following</span>
+            </li>
+          </ul>
+          <p class="profile__description">
+            Cryptocurrencies including Ethereum, Ripple, and Litecoin have all plunged between 20 to 30 percent each, according to CoinMarketCap. Here is the latest Ripple price news and live updates on XRP, bitcoin and Ethereum.
+          </p>
+        </div>
+        <div>
+          <div class="privacy">
+            <span class="privacy__text">Public</span>
+            <label class="privacy__switch">
+              <input class="visually-hidden privacy__checkbox" type="checkbox">
+              <span class="privacy__slider"></span>
+            </label>
+            <span class="privacy__text">Private</span>
+          </div>
+          <ul class="card-list list">
+            <li class="card">
+              <p class="card__text">New air routes that promise cheap flights in</p>
+              <div class="card-bottom">
+                <div class="card-author">
+                  <img class="card-author__image">
+                  <span class="card-author__name">Gregory Watkins</span>
+                </div>
+                <button class="card-bottom__share">Share</button>
+              </div>
+            </li>
+            <li class="card">
+              <p class="card__text">New air routes that promise cheap flights in</p>
+              <div class="card-bottom">
+                <div class="card-author">
+                  <img class="card-author__image">
+                  <span class="card-author__name">Gregory Watkins</span>
+                </div>
+                <button class="card-bottom__share">Share</button>
+              </div>
+            </li>
+            <li class="card card--share-to">
+              <p class="card__top">
+                Shared to
+                <a class="card__link" href="#">#discussionaboutanimgttddfjkhdsjhfjsdhfjs</a>
+              </p>
+              <p class="card__text">New air routes that promise cheap flights in</p>
+              <div class="card-bottom">
+                <div class="card-author">
+                  <img class="card-author__image">
+                  <span class="card-author__name">Gregory Watkins</span>
+                </div>
+                <div class="action">
+                  <p class="action__item">
+                    <img class="action__icon" src="./img/view.svg" width="16" height="16" alt="icon">
+                    <span class="action__count">88</span>
+                  </p>
+                  <p class="action__item">
+                    <img class="action__icon" src="./img/like.svg" width="16" height="16" alt="icon">
+                    <span class="action__count">23</span>
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="card card--share-via">
+              <p class="card__top">
+                Shared via weblink
+              </p>
+              <p class="card__text">New air routes that promise cheap flights in</p>
+              <div class="card-bottom">
+                <div class="card-author">
+                  <img class="card-author__image">
+                  <span class="card-author__name">Gregory Watkins</span>
+                </div>
+                <div class="action">
+                  <p class="action__item">
+                    <img class="action__icon" src="./img/view.svg" width="16" height="16" alt="icon">
+                    <span class="action__count">88</span>
+                  </p>
+                  <p class="action__item">
+                    <img class="action__icon" src="./img/like.svg" width="16" height="16" alt="icon">
+                    <span class="action__count">23</span>
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </container>
+    </main>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

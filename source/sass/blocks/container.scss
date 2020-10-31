@@ -1,0 +1,24 @@
+.container {
+  position: relative;
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+
+  &--flex {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: $tablet-width) {
+  .container--flex {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .container {
+    max-width: 320px;
+    box-sizing: border-box;
+  }
+}

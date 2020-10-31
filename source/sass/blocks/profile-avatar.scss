@@ -1,0 +1,18 @@
+.profile-avatar {
+  width: 120px;
+  height: 120px;
+  margin-right: 25px;
+
+  &__image {
+    max-width: auto;
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .profile-avatar {
+    &__image {
+      width: 90px;
+      height: 90px;
+    }
+  }
+}

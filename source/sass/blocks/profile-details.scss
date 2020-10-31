@@ -1,0 +1,11 @@
+.profile-details {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+@media(max-width: $tablet-width) {
+  .profile-details {
+    justify-content: center;
+  }
+}

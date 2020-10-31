@@ -1,0 +1,16 @@
+.card-bottom {
+  position: absolute;
+  bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+  width: 87%;
+
+  &__share {
+    font-size: 18px;
+    line-height: 24px;
+    color: $red;
+    border: none;
+    background: transparent;
+    text-align: right;
+  }
+}

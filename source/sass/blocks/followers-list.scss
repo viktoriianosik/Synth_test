@@ -1,0 +1,14 @@
+.followers-list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  max-width: 300px;
+}
+
+@media(max-width: $tablet-width) {
+  .followers-list {
+    justify-content: center;
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,20 @@
+.card-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 775px;
+  width: 100%;
+}
+
+@media(max-width: $tablet-width) {
+  .card-list {
+    max-width: 100%;
+    justify-content: space-around;
+  }
+}
+
+@media(max-width: $mobile-md-width) {
+  .card-list {
+    justify-content: center;
+  }
+}

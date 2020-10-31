@@ -1,0 +1,32 @@
+.dropdown-item {
+  position: relative;
+  padding: 8px 0 8px 60px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+
+  &:hover {
+    background-color: rgba(236,241,248, 0.6);
+    cursor: pointer;
+  }
+
+  &--report:before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 26px;
+    width: 21px;
+    height: 23px;
+    background: url(../../img/report.svg) no-repeat 0 0;
+  }
+
+  &--block:before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 26px;
+    width: 16px;
+    height: 16px;
+    background: url(../../img/block.svg) no-repeat 0 0;
+  }
+}

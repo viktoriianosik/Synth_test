@@ -1,0 +1,32 @@
+.menu {
+  display: flex;
+  justify-content: flex-start;
+
+  &__link {
+    padding-bottom: 20px;
+    margin-right: 35px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: $gray_light;
+    opacity: 0.6;
+    text-transform: uppercase;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__link--active {
+    opacity: 1;
+    border-bottom: 4px solid;
+    border-image-source: linear-gradient(135deg, #FF974F 0%, #E32C75 100%);
+    border-image-slice: 0 0 1 0;
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .menu {
+    justify-content: center;
+  }
+}
